@@ -1,0 +1,4 @@
+mkdir -p .github
+cat << 'EOF' > .github/FUNDING.yml
+github: samithatharanga
+EOF
