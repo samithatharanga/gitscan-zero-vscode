@@ -1,0 +1,51 @@
+{
+  "name": "gitscan-zero",
+  "displayName": "GitScan-Zero — Zero-Cloud Secret Scanner",
+  "description": "Lightning-fast, air-gapped real-time secret leak detector with instant 1-click auto-redaction & .env sync.",
+  "version": "1.0.0",
+  "publisher": "samithatharanga",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "icon": "icon.png",
+  "activationEvents": [
+    "*"
+  ],
+  "categories": [
+    "Linters",
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "secret scanner",
+    "security",
+    "api keys",
+    "cybersecurity",
+    "gitleaks",
+    "zero cloud",
+    "pre commit",
+    "dotenv"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gitscan-zero.moveToEnvAndProtect",
+        "title": "GitScan-Zero: Move to .env and Protect"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samithatharanga/GitScan-Zero"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/samithatharanga"
+  },
+  "author": {
+    "name": "Samitha Tharanga Wijesinghe",
+    "url": "https://lk.linkedin.com/in/samitha-tharanga-wijesinghe"
+  },
+  "license": "MIT"
+}
