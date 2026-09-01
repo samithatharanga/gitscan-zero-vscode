@@ -97,6 +97,10 @@ When a secret is detected, GitScan-Zero highlights the exact token with a warnin
 |  VS Code Diagnostic Provider  |   |  CodeAction QuickFix Engine   |
 | (Underlines secret in editor) |   | (Masks / Redacts / Syncs .env)|
 +-------------------------------+   +-------------------------------+
+
+```
+
+
 GitScan-Zero requires zero special workspace permissions and contains no external runtime dependencies (dependencies: {} in package.json).
 
 📦 Installation
